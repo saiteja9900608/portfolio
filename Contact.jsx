@@ -6,7 +6,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_bx6rzzb', 'template_rynaj87', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_bx6rzzb', 'template_rynaj87', form.current, 'Y4g9W2Jzc-v6CYIMk')
       .then(() => alert('Message sent successfully!'))
       .catch(err => alert('Failed to send message: ' + err.text));
   };
